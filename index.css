@@ -1,4 +1,62 @@
+html {
+    background-color: rgb(34, 82, 38);
+}
+
+body {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    font-size: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    font-size: 20px;
+}
+
+input {
+    width: 45px;
+    margin-bottom: 25px;
+}
+
+button {
+    border-color: rgb(180, 180, 180);
+    background-color: rgb(88, 88, 88);
+    margin: auto;
+    display: block;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#results {
+    text-align: center;
+}
+
+
 #map {
     height: 400px;
     width: 100%;
+    margin-bottom: 25px;
+
 }
+
+@media screen and (min-width: 768px) {
+    #map {
+        height: 550px;
+        max-width: 65%;
+        float: left;
+        margin-right: 15px;
+    }
+    header {
+        font-size: 50px;
+    }
+    form {
+        font-size: 30px;
+    }
+    #results {
+        font-size: 16px;
+    }
